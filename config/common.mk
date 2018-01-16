@@ -58,6 +58,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/etc/permissions/privapp-permissions-omni.xml:system/etc/permissions/privapp-permissions-omni.xml
 
+# Phonelocation!
+PRODUCT_COPY_FILES +=  \
+    vendor/omni/prebuilt/common/media/location/suda-phonelocation.dat:system/media/location/suda-phonelocation.dat
+
+# World SPN overrides list
+PRODUCT_COPY_FILES += \
+    vendor/omni/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml
+
 # custom omni sounds
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=omni_ringtone1.ogg \
