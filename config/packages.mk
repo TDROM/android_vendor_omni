@@ -108,4 +108,5 @@ PRODUCT_PACKAGES += \
     ExtraFonts
 
 PRODUCT_PACKAGES += \
+    PhoneLocationProvider \
     ForceStop
